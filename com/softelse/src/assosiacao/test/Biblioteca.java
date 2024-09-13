@@ -8,6 +8,7 @@ import com.softelse.src.assosiacao.domain.Local;
 public class Biblioteca {
     public static void main(String[] args) {
 
+
         Local local = new Local("Pateleira A", "Gaveta 33");
         Local local1 = new Local("Pateleira A", "Gaveta 34");
         Autor autor = new Autor("Growth", "Brasileira");

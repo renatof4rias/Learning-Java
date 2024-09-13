@@ -32,6 +32,7 @@ public class Leitor {
         }
     }
 
+
     public String getNome() {
         return nome;
     }

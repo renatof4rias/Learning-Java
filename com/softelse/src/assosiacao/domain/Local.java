@@ -17,6 +17,7 @@ public class Local {
         this.secao = secao;
     }
 
+
     public String getEstante() {
         return estante;
     }

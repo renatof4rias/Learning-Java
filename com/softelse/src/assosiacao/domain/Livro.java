@@ -56,6 +56,4 @@ public class Livro {
     public void setLocal(Local local) {
         this.local = local;
     }
-
-
 }
