@@ -4,11 +4,11 @@ public class Aluno {
     private String nome;
     private Nota notas;
 
-    public void imprime(){
-        if (notas == null)return;
-            System.out.println("-Primeira Nota: " + notas.getPrimeiraNota());
-            System.out.println("-Segunda Nota: " + notas.getSegundaNota());
-            System.out.println("-Terceira Nota: " + notas.getTerceiraNota());
+    public void imprime() {
+        if (notas == null) return;
+        System.out.println("-Primeira Nota: " + notas.getPrimeiraNota());
+        System.out.println("-Segunda Nota: " + notas.getSegundaNota());
+        System.out.println("-Terceira Nota: " + notas.getTerceiraNota());
     }
 
     public Aluno(String nome) {
