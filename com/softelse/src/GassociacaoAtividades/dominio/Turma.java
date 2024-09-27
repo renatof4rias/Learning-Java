@@ -6,10 +6,10 @@ public class Turma {
     private String curso;
     private Aluno[] alunos;
 
-    public void imprime(){
+    public void imprime() {
         System.out.println("Nome do Curso - " + this.curso);
         System.out.println("Lista de Alunos - ");
-        if (alunos == null)return;
+        if (alunos == null) return;
         for (Aluno aluno : alunos) {
             System.out.println("----------------------------------------------------------");
             System.out.println("Nome - " + aluno.getNome());
@@ -42,5 +42,4 @@ public class Turma {
     public void setAlunos(Aluno[] alunos) {
         this.alunos = alunos;
     }
-
 }
