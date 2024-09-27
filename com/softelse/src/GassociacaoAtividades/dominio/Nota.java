@@ -34,4 +34,5 @@ public class Nota {
     public void setTerceiraNota(int terceiraNota) {
         this.terceiraNota = terceiraNota;
     }
+
 }
