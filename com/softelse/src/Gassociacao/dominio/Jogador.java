@@ -6,10 +6,12 @@ public class Jogador {
 
     public void imprime(){
         System.out.println("Jogador: " + this.nome);
+        if(time == null)return;
         System.out.println("Time: " + time.getNome());
     }
 
-    public Jogador(Time time) {
+    public Jogador(String nome, Time time) {
+        this.nome = nome;
         this.time = time;
     }
 
