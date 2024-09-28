@@ -2,22 +2,27 @@ package com.softelse.src.GassociacaoAtividades.dominio;
 
 public class Aluno {
     private String nome;
-    private Nota notas;
+    private int idade;
 
-    public void imprime() {
-        if (notas == null) return;
-        System.out.println("-Primeira Nota: " + notas.getPrimeiraNota());
-        System.out.println("-Segunda Nota: " + notas.getSegundaNota());
-        System.out.println("-Terceira Nota: " + notas.getTerceiraNota());
+    private Seminario seminario;
+
+    public Aluno(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
-    public Aluno(String nome) {
+    public Aluno(String nome, int idade, Seminario seminario) {
         this.nome = nome;
+        this.idade = idade;
+        this.seminario = seminario;
     }
 
-    public Aluno(String nome, Nota notas) {
-        this.nome = nome;
-        this.notas = notas;
+    public Seminario getSeminario() {
+        return seminario;
+    }
+
+    public void setSeminario(Seminario seminario) {
+        this.seminario = seminario;
     }
 
     public String getNome() {
@@ -28,11 +33,11 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public Nota getNotas() {
-        return notas;
+    public int getIdade() {
+        return idade;
     }
 
-    public void setNotas(Nota notas) {
-        this.notas = notas;
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
