@@ -1,16 +1,14 @@
 package com.softelse.src.GassociacaoAtividades.dominio;
 
-import java.util.Arrays;
-
 public class Turma {
     private String curso;
-    private Aluno[] alunos;
+    private Aluno1[] alunos;
 
     public void imprime() {
         System.out.println("Nome do Curso - " + this.curso);
         System.out.println("Lista de Alunos - ");
         if (alunos == null) return;
-        for (Aluno aluno : alunos) {
+        for (Aluno1 aluno : alunos) {
             System.out.println("----------------------------------------------------------");
             System.out.println("Nome - " + aluno.getNome());
             aluno.imprime();
@@ -22,7 +20,7 @@ public class Turma {
         this.curso = curso;
     }
 
-    public Turma(String curso, Aluno[] alunos) {
+    public Turma(String curso, Aluno1[] alunos) {
         this.curso = curso;
         this.alunos = alunos;
     }
@@ -35,11 +33,11 @@ public class Turma {
         this.curso = curso;
     }
 
-    public Aluno[] getAlunos() {
+    public Aluno1[] getAlunos() {
         return alunos;
     }
 
-    public void setAlunos(Aluno[] alunos) {
+    public void setAlunos(Aluno1[] alunos) {
         this.alunos = alunos;
     }
 }
