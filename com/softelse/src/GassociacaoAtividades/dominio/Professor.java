@@ -6,15 +6,19 @@ public class Professor {
 
     private Seminario[] seminarios;
 
-    public Professor(String nome, String especialidade, Seminario[] seminarios) {
-        this.nome = nome;
-        this.especialidade = especialidade;
-        this.seminarios = seminarios;
+    public Professor() {
+
     }
 
     public Professor(String nome, String especialidade) {
         this.nome = nome;
         this.especialidade = especialidade;
+    }
+
+    public Professor(String nome, String especialidade, Seminario[] seminarios) {
+        this.nome = nome;
+        this.especialidade = especialidade;
+        this.seminarios = seminarios;
     }
 
     public Seminario[] getSeminarios() {
