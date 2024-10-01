@@ -31,7 +31,7 @@ public class Cartao {
                 "nomeTitular='" + nomeTitular + '\'' +
                 ", tipoCartao=" + tipoCartao + '\'' +
                 ", tipoCartao(Valor)=" + tipoCartao.valor + '\'' +
-                ", limiteCartao=" + tipoCartao.getLimiteCredito()+
+                ", limiteCartao=" + tipoCartao.getLimiteCredito() +
                 '}';
     }
 }
