@@ -64,6 +64,5 @@ public enum TipoCartao {
     }
 
     public abstract double setLimiteCredito(double limit);
-
     public abstract double getLimiteCredito();
 }
