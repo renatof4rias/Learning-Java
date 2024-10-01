@@ -13,11 +13,11 @@ public class CartaoTest {
         System.out.println(crédito);
         System.out.println("---------------------------------");
 
-//        System.out.println("---------------------------------");
-//        System.out.println(cartao);
-//        System.out.println("---------------------------------");
-//        System.out.println("---------------------------------");
-//        System.out.println(cartao1);
-//        System.out.println("---------------------------------");
+        System.out.println("---------------------------------");
+        System.out.println(cartao);
+        System.out.println("---------------------------------");
+        System.out.println("---------------------------------");
+        System.out.println(cartao1);
+        System.out.println("---------------------------------");
     }
 }
